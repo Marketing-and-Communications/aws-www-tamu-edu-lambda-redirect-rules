@@ -22,7 +22,7 @@
               "customHeaders": {
                 "rules-url": [
                   {
-                    "value": "../../staging/rules.json",
+                    "value": "../../rules.json",
                     "key": "Rules-URL"
                   }
                 ],
