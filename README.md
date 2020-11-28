@@ -6,7 +6,6 @@ Lambda@Edge redirection rules, tests, and pipeline
 Fork or clone this repository and modify *rules.json* file in the rules directory, and write tests in the tests directory. 
 The repository should be configured to fail merge if merge tests fail. 
 
-
 ## Rules
 
 Simply make modifications to the *rules.json* files in the rules directory in a branch called *development*
