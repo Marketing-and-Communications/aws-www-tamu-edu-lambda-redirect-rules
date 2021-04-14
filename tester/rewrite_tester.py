@@ -86,6 +86,7 @@ class RewriteTester:
       
       res = self.result_dict_matches_desired(event_dict=event_dict, result_dict=result_dict)
       if res:
+        pprint(res)
         print(f'Test "{test_event_name}" PASSED')
       else:
         print(f'Test "{test_event_name}" FAILED')
