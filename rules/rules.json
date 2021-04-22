@@ -3,6 +3,9 @@
     "^/faculty/ccbn/dewitt http://www.sonofdewittcolony.org [R=301,L,NC]",
     "^/faculty/choudhury http://people.tamu.edu/~i-choudhury [R=301,L,NC]",
 
+    "/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
+    "^/[storycorps]+/.*$ https://storycorps.tamu.edu/$1 [R=301,L,NC]",
+
     "/coronavirus/july-7-reaction-to-new-federal-guidance-on-international-students.html /coronavirus/messages/july-7-reaction-to-new-federal-guidance-on-international-students.html [R=301,L,NC]",
     "/coronavirus/fall-2020-class-instruction-guidance-for-faculty-and-staff.html /coronavirus/messages/fall-2020-class-instruction-guidance-for-faculty-and-staff.html [R=301,L,NC]",
     "/coronavirus/provost-fierke-to-lead-covid-response.html /coronavirus/messages/provost-fierke-to-lead-covid-response.html [R=301,L,NC]",
@@ -50,8 +53,6 @@
     "/coronavirus/messages/july-19-covid-19-reporting-process.html /coronavirus/messages/july-20-covid-19-reporting-process.html [R=301,L,NC]",
     "/coronavirus/downloads/Explanatory-Statement-for-Absence-from-Class-Self-Reporting.pdf https://cas.tamu.edu/cas/login?service=https%3A%2F%2Fhowdy.tamu.edu%2FuPortal%2FLogin%3FrefUrl%3D%252FuPortal%252Fp%252Fclass-absence-form-ui [R=301,L,NC]",
     "/coronavirus/meetings-events/index.html /coronavirus/crowd-limits/index.html [R=301,L,NC]",
-    "/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
-    "^/[storycorps]+/.*$ https://storycorps.tamu.edu/$1 [R=301,L,NC]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
     "^(((?!\\.).)*)$ $1/index.html [R,L]"
