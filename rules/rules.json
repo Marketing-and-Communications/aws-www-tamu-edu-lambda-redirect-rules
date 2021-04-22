@@ -4,6 +4,7 @@
     "^/faculty/choudhury http://people.tamu.edu/~i-choudhury [R=301,L,NC]",
 
     "/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
+    "^/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
     "^/[storycorps]+/.*$ https://storycorps.tamu.edu/$1 [R=301,L,NC]",
 
     "/coronavirus/july-7-reaction-to-new-federal-guidance-on-international-students.html /coronavirus/messages/july-7-reaction-to-new-federal-guidance-on-international-students.html [R=301,L,NC]",
