@@ -3,6 +3,8 @@
     "^/faculty/ccbn/dewitt http://www.sonofdewittcolony.org [R=301,L,NC]",
     "^/faculty/choudhury http://people.tamu.edu/~i-choudhury [R=301,L,NC]",
 
+    "^/eduroam.*$ https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,a6f3f1da6f64c600b522db3bbb3ee41a [R=302,L,NC]",
+
     "/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
     "^/beyondtexas/index.html https://beyondtexas.tamu.edu [R=301,L,NC]",
     "^/[storycorps]+/.*$ https://storycorps.tamu.edu/$1 [R=301,L,NC]",
