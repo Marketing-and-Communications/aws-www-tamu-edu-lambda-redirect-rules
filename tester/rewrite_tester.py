@@ -10,6 +10,7 @@ import json
 import os
 import subprocess
 import sys
+from pprint import pprint
 
 
 class RewriteTester:
@@ -85,6 +86,7 @@ class RewriteTester:
       
       res = self.result_dict_matches_desired(event_dict=event_dict, result_dict=result_dict)
       if res:
+        pprint(res)
         print(f'Test "{test_event_name}" PASSED')
       else:
         print(f'Test "{test_event_name}" FAILED')
@@ -92,6 +94,7 @@ class RewriteTester:
       return res
 
     def result_dict_matches_desired(self, event_dict: dict, result_dict: dict):
+      pprint(result_dict)
       return \
         event_dict['status'] == result_dict['status'] and \
         event_dict['headers']['location'][0]['value'] == result_dict['headers']['location'][0]['value']
