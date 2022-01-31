@@ -1,6 +1,8 @@
 [
     "^/eduroam.*$ https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,a6f3f1da6f64c600b522db3bbb3ee41a [R=301,L,NC]",
 
+    "^/autodiscover http://autodiscover.tamu.edu [R=301,L,NC]",
+
     "^/upress.*$ http://www.tamupress.com [R=301,L,NC]",
     "^/visitors/visitor-center/holidaySchedule.html /visitors/schedule.html [R=301,L,NC]",
     "^/visitors/aec/index.html /visitors/tour-leaders.html [R=301,L,NC]",
