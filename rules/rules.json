@@ -3,7 +3,7 @@
     "^/faculty/ccbn/dewitt http://www.sonofdewittcolony.org [R=301,L,NC]",
     "^/faculty/choudhury http://people.tamu.edu/~i-choudhury [R=301,L,NC]",
 
-    "^/autodiscover http://autodiscover.tamu.edu [R=301,L,NC]",
+    "^/autodiscover http://autodiscover.tamu.edu [R=302,L,NC]",
 
     "^/eduroam.*$ https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,a6f3f1da6f64c600b522db3bbb3ee41a [R=302,L,NC]",
 
