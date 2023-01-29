@@ -58,6 +58,7 @@
     "/coronavirus/downloads/Explanatory-Statement-for-Absence-from-Class-Self-Reporting.pdf https://cas.tamu.edu/cas/login?service=https%3A%2F%2Fhowdy.tamu.edu%2FuPortal%2FLogin%3FrefUrl%3D%252FuPortal%252Fp%252Fclass-absence-form-ui [R=301,L,NC]",
     "/coronavirus/meetings-events/index.html /coronavirus/crowd-limits/index.html [R=301,L,NC]",
 
+    "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
     "^(((?!\\.).)*)$ $1/index.html [R,L]"
