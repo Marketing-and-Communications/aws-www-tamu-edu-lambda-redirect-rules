@@ -196,6 +196,7 @@
     "^/coronavirus/index.html https://covid.tamu.edu/index.html [R=301,L,NC]",
     "^/coronavirus/ https://covid.tamu.edu/ [R=301,L,NC]",
     "^/coronavirus https://covid.tamu.edu [R=301,L,NC]",
+    "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
     "^(((?!\\.).)*)$ $1/index.html [R,L]"
